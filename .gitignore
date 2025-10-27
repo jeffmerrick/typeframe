@@ -1,0 +1,41 @@
+# Python
+*.pyc
+__pycache__/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Virtual environments
+venv/
+ENV/
+.env/
+**/venv/
+
+# Build artifacts
+*.o
+*.so
+*.out
+*.a
+*.exe
+*.dll
+*.bin
+*.elf
+*.log
+*.tmp
+*.swp
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Ignore shell history
+*.history
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/

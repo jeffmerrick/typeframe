@@ -1,0 +1,2 @@
+openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg -c "program ./Power_Management_HAT.elf verify reset exit"
+
