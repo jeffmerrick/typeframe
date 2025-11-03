@@ -20,24 +20,21 @@ Boot options:
 ### 2. Install Required Dependencies
 
 ```bash
-sudo apt-get update
 sudo apt-get install dialog
 ```
 
-### 3. Copy Launcher Scripts
+### 3. Copy Launcher Script
 
-Download or copy the launcher files to the Typeframe directory in your home directory. You may have already created it in the initial setup. The launcher consists of multiple shell scripts that work together.
+Download or copy the launcher file to the Typeframe directory in your home directory.
 
 ```bash
-# Download launcher scripts from GitHub
+# Download launcher script from GitHub
 cd ~/Typeframe
 mkdir ~/launcher
 wget [your-github-url]/launcher/launcher.sh
-wget [your-github-url]/launcher/start_editor.sh
-wget [your-github-url]/launcher/brightness_control.sh
 
-# Make all shell scripts executable
-sudo chmod +x *.sh
+# Make the shell script executable
+sudo chmod +x launcher.sh
 ```
 
 ### 4. Auto-launch on Boot

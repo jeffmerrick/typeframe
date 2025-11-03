@@ -1,1 +1,0 @@
-chromium-browser --no-memcheck --start-fullscreen "https://docs.google.com/"
