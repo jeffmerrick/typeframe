@@ -130,11 +130,9 @@ Slide the hinges into the slots on the front of the case bottom.
 
 ## Case Side
 
-<!-- @TODO: add link -->
-
 :::danger[Stop! Set up software first!]
 
-You must at least install the Power Management HAT Firmware before this step. It requires connecting the Pi directly to power and the Pi's USB-C power port will be inaccessible once it's in the case.
+You must at least install the [Power Management HAT Firmware](../software-setup/power-management-hat.md) before this step. It requires connecting the Pi directly to power and the Pi's USB-C power port will be inaccessible once it's in the case.
 
 :::
 

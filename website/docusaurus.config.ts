@@ -114,8 +114,8 @@ const config: Config = {
       copyright: `A project by <a href="https://www.wireform.io" target="_blank" rel="noopener noreferrer">Jeff</a>.<br/>`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.gruvboxMaterialDark,
+      darkTheme: prismThemes.gruvboxMaterialDark,
     },
   } satisfies Preset.ThemeConfig,
 };

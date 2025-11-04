@@ -121,7 +121,7 @@ h6 {
 .card {
   box-shadow: var(--ifm-global-shadow-lw) !important;
 }
-img {
+article img {
   border-radius: 0.5rem;
   box-shadow: var(--ifm-global-shadow-lw);
 }

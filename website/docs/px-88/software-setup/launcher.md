@@ -1,6 +1,15 @@
-# Typeframe Launcher Setup Guide
+---
+title: Application Launcher
+sidebar_position: 7
+description: Set up the terminal-based application launcher.
+---
 
-## Add the Launcher
+# Install the Application Launcher
+
+![Launcher Screenshot](./img/launcher.png)
+
+This is a simple bash script that provides a terminal-based application launcher for the PX-88. It allows you to easily launch a full-screen browser window with a URL of your choice from a text-based menu when booting to the console.
+By default it opens Google Docs, but you can edit `launcher.sh` to open anything you'd like. It also allows you to control the screen brightness and view the battery status.
 
 ### 1. Configure Boot Behavior
 
@@ -31,7 +40,7 @@ Download or copy the launcher file to the Typeframe directory in your home direc
 # Download launcher script from GitHub
 cd ~/Typeframe
 mkdir ~/launcher
-wget [your-github-url]/launcher/launcher.sh
+wget https://raw.githubusercontent.com/jeffmerrick/typeframe/refs/heads/main/px-88/software/launcher/launcher.sh
 
 # Make the shell script executable
 sudo chmod +x launcher.sh

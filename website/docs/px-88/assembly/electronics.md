@@ -124,6 +124,4 @@ Here's a photo of everything hooked up when it's installed in the case later:
 
 ## Testing
 
-<!-- @TODO: Add link to software setup section. -->
-
-You'll need to jump to the Software setup section to get the Pi booted, the screen working, and the Power Management HAT firmware installed. Once you've done that you can test all the connections before moving on to final assembly.
+You'll need to jump to the [Software setup section](../software-setup/) to get the Pi booted, the screen working, and the Power Management HAT firmware installed. Once you've done that you can test all the connections before moving on to final assembly.
