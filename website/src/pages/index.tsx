@@ -1,10 +1,10 @@
 import type { ReactNode } from "react";
-import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
 import ThemedImage from "@theme/ThemedImage";
+import Image from "@theme/IdealImage";
 
 import styles from "./index.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -13,16 +13,18 @@ function FrameCard() {
   return (
     <div>
       <div className={styles.frameImage}>
-        <img
-          className={styles.frameImage__large}
-          src={require("./img/typeframe-px-88-hero.png").default}
-          alt="Typeframe PX-88"
-        />
-        <img
-          className={styles.frameImage__simple}
-          src={require("./img/typeframe-px-88-hero-simple.png").default}
-          alt="Typeframe PX-88"
-        />
+        <div className={styles.frameImage__large}>
+          <Image
+            img={require("./img/typeframe-px-88-hero.png")}
+            alt="Typeframe PX-88"
+          />
+        </div>
+        <div className={styles.frameImage__simple}>
+          <Image
+            img={require("./img/typeframe-px-88-hero-simple.png")}
+            alt="Typeframe PX-88"
+          />
+        </div>
       </div>
 
       <p className={styles.frameOverline}>

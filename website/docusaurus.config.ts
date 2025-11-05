@@ -51,6 +51,19 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        quality: 100,
+        min: 320,
+        max: 2170,
+        steps: 7,
+        disableInDev: false,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/typeframe-social-card.jpg",
@@ -85,11 +98,11 @@ const config: Config = {
           items: [
             {
               label: "PX-88",
-              to: "/docs/category/typeframe-px-88",
+              to: "/docs/px-88",
             },
             {
               label: "PS-85 (Coming Soon)",
-              to: "/docs/category/typeframe-ps-85",
+              to: "/docs/ps-85",
             },
           ],
         },

@@ -1,0 +1,14 @@
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+.galleryGrid div {
+  aspect-ratio: 3.1 / 2.33;
+}
+
+.galleryGrid div img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
