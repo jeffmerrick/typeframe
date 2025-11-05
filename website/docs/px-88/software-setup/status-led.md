@@ -6,7 +6,7 @@ description: Set up the status LED.
 
 # Status LED Setup
 
-If you've installed the status LED as described in the assembly section, here's what you need to do on the software side to get it working. I found a [helpful guide](https://www.richinfante.com/2021/08/11/raspberry-pi-gpio-status-lights) that goes over how this all works.
+If you've installed the status LED as described in the assembly section, here's what you need to do on the software side to get it working. I found a [helpful guide](https://www.richinfante.com/2021/08/11/raspberry-pi-gpio-status-lights) that explains how this all works.
 
 ### 1. Test the LED
 

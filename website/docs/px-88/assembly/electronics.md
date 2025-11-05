@@ -8,7 +8,7 @@ description: Hooking up the electronics.
 
 ## Overview
 
-Here I'll go over how to connect the electronics for the PX-88. This includes connecting the Raspberry Pi, screen, Power Management HAT, and other components like the power switch and status light. You will likely want to hook everything up before you start putting the case together to make sure everything works. Most of these steps will be repeated later with less detail in the full assembly guide.
+Here, I'll go over how to connect the electronics for the PX-88. This includes connecting the Raspberry Pi, screen, Power Management HAT, and other components like the power switch and status light. You will likely want to hook everything up before you start putting the case together to make sure everything works. Most of these steps will be repeated later with less detail in the full assembly guide.
 
 ## Battery and Power Management HAT
 
@@ -20,7 +20,7 @@ The battery connector may come with the polarity reversed. If the red wire is co
 
 :::
 
-This is easy to do, no need to resolder. You can use a small flathead screwdriver to gently pry up the plastic tabs on the connector and slide the wires out. Then just reinsert them in the correct order.
+This is easy to do, no need to re-solder. You can use a small flathead screwdriver to gently pry up the plastic tabs on the connector and slide the wires out. Then just reinsert them in the correct order.
 
 You want it to look like this:
 
@@ -30,7 +30,7 @@ Other photos may be a bit confusing as the extension cable does not have the wir
 
 ### 2. Attach the 200mm Extension Cable to the Battery
 
-If you really want the colors to match you can swap the wires on the extension cable as well, but it's not strictly necessary as long as you keep track of which wire is which.
+If you really want the colors to match, you can swap the wires on the extension cable as well, but it's not strictly necessary as long as you keep track of which wire is which.
 
 ### 3. Install the 1220 Lithium Battery
 
@@ -38,7 +38,7 @@ Insert the 1220 lithium battery into the battery holder on the Power Management 
 
 ### 4. Attach the Power Management HAT to the Raspberry Pi
 
-Push the GPIO header that came with the Power Management HAT into the GPIO pins on the Raspberry Pi, then the HAT itself onto the header. Don't worry about the standoffs since we're just testing, but hang on to them for later.
+Push the GPIO header that came with the Power Management HAT into the GPIO pins on the Raspberry Pi, then the HAT itself onto the header. Don't worry about the standoffs since we're just testing, but hold on to them for later.
 
 ### 5. Connect the Battery to the Power Management HAT
 
@@ -70,13 +70,13 @@ Using the longer 500mm DSI ribbon cable, connect one end to the screen and the o
 
 ![Raspberry Pi Pinout](./img/gpio-pinout.png)
 
-Here's an older photo when I was testing things out, you won't need to have the standoffs installed but can see the connections:
+Here's an older photo from when I was testing things out. You won't need to have the standoffs installed, but you can see the connections:
 
 ![Battery Connector Polarity](./img/test-connections-03.png)
 
 ## Keyboard
 
-If you want to test out the keyboard you can hook it up, but you'll need to follow the keyboard assembly to get the stabilizers, switches, and keycaps installed as well. You may want to wait until later and use SSH or an extra keyboard for initial testing.
+If you want to test out the keyboard, you can hook it up, but you'll need to follow the keyboard assembly to get the stabilizers, switches, and keycaps installed as well. You may want to wait until later and use SSH or an extra keyboard for initial testing.
 
 ### 1. Connect Keyboard to Daughterboard
 
@@ -88,7 +88,7 @@ Using your small USB-A to USB-C cable, connect the daughterboard to one of the R
 
 ## Power Switch
 
-You'll need to do a bit of soldering here. You can also skip this step and use the onboard power button on the Power Management HAT for testing. If you choose to solder before installing the switch in the case, you may want to use Dupont connectors to make it easier to connect and disconnect later. (Otherwise you'll likely need to resolder!)
+You'll need to do a bit of soldering here. You can also skip this step and use the onboard power button on the Power Management HAT for testing. If you choose to solder before installing the switch in the case, you may want to use Dupont connectors to make it easier to connect and disconnect later. (Otherwise, you'll likely need to re-solder!)
 
 ### 1. Solder Wires to Power Switch
 
@@ -116,7 +116,7 @@ Solder two female Dupont connectors to the two terminals on the status LED. Sold
 - Connect the red wire (with resistor) to GPIO 19 (Physical Pin 35)
 - Connect the black wire to a Ground pin (Physical Pin 39)
 
-Note that the status LED won't work until some confguration is done later in the software setup section.
+Note that the status LED won't work until some configuration is done later in the software setup section.
 
 My test connections:
 
@@ -128,4 +128,4 @@ Everything connected when it's installed in the case later:
 
 ## Testing
 
-You'll need to jump to the [Software setup section](../software-setup/) to get the Pi booted, the screen working, and the Power Management HAT firmware installed. Once you've done that you can test all the connections before moving on to final assembly.
+You'll need to jump to the [Software setup section](../software-setup/) to get the Pi booted, the screen working, and the Power Management HAT firmware installed. Once you've done that, you can test all the connections before moving on to final assembly.

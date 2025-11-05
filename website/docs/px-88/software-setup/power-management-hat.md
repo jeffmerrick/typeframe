@@ -8,7 +8,7 @@ description: Flash the firmware for the Power Management HAT.
 
 This section details the necessary steps to configure the HAT for Button Control (Power ON/Soft Shutdown) using a `systemd` service and the Waveshare provided example firmware.
 
-I had to make some changes to the official Waveshare guide to get it working - this is what worked for me. For complete documentation, see the [Waveshare Power Management HAT (B) Wiki](<https://www.waveshare.com/wiki/Power_Management_HAT_(B)>).
+I had to make some changes to the official Waveshare guide to get it working; this is what worked for me. For complete documentation, see the [Waveshare Power Management HAT (B) Wiki](<https://www.waveshare.com/wiki/Power_Management_HAT_(B)>).
 
 ## Set Up RP2040 Development Tools
 
@@ -97,7 +97,7 @@ For the battery status to work, enable UART on the Raspberry Pi. This will allow
 sudo raspi-config nonint do_serial 1
 ```
 
-You can also find this in nthe `raspi-config` interface under **"Interface Options" → "Serial Port"**.
+You can also find this in the `raspi-config` interface under **"Interface Options" → "Serial Port"**.
 
 ## Compile and Flash the Button Firmware
 
@@ -144,7 +144,7 @@ This final step flashes firmware that enables button control.
    ```
 
 4. Confirm the Firmware is Working
-   Unplug the USB cable from the Pi, reconnect it to the Power Management HAT. You can now use the PWR button to turn the Pi on andd off.
+   Unplug the USB cable from the Pi, reconnect it to the Power Management HAT. You can now use the PWR button to turn the Pi on and off.
 
 ---
 

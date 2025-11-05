@@ -26,7 +26,7 @@ chmod +x ~/Typeframe/brightness_*.sh
 
 ### 2. Configure labwc Keyboard Shortcuts
 
-Add the following keyboard shortcuts to your `~/.config/labwc/rc.xml` file, creating it if it doesn't exist:
+Add the following keyboard shortcuts to your `~/.config/labwc/rc.xml` file, creating it if it doesn't already exist:
 
 ```xml
 <?xml version="1.0"?>

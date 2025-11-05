@@ -126,7 +126,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `<span>A project by <a href="https://www.instagram.com/jeffsbuilds" target="_blank" rel="noopener noreferrer">Jeff</a></span> <a href="/license">Licenses</a>`,
+      copyright: `<span>A project by <a href="mailto:jeff@typeframe.net" target="_blank" rel="noopener noreferrer">Jeff</a></span> <a href="/license">Licenses</a>`,
     },
     prism: {
       theme: prismThemes.gruvboxMaterialDark,

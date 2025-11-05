@@ -8,7 +8,7 @@ description: Putting everything together.
 
 ## Overview
 
-This section covers the full assembly of the PX-88 case, including installing the electronics, screen, and keyboard. Familiarize yourself with the [electronics assembly](./electronics.md) guide first - there's less detail here as I'm assuming you already have an idea how the electronics all connect.
+This section covers the full assembly of the PX-88 case, including installing the electronics, screen, and keyboard. Familiarize yourself with the [electronics assembly](./electronics.md) guide first - there's less detail here as I'm assuming you already have an idea of how the electronics all connect.
 
 ## Keyboard
 
@@ -32,13 +32,13 @@ Using the included hardware, install the keyboard stabilizers into the PCB.
 
 ### 4. Connect the Daughterboard to the Keyboard PCB
 
-Connect the daugterboard cable to the bottom of the keyboard PCB.
+Connect the daughterboard cable to the bottom of the keyboard PCB.
 
 ![Connect Daughterboard Cable](./img/keyboard-assembly-04.jpg)
 
 ### 5. Install the Keyboard PCB
 
-Using the 4 M3x10 screws, install the keyboard PCB into the case. I used M3 washers here as well, but it seemed to work fine without them as well. You'll see a rubber band on the back of the PCB in the photo - this was to prevent the PCB from flexing down when typing, but it ended up being unnecessary.
+Using the 4 M3x10 screws, install the keyboard PCB into the case. I used M3 washers here as well, but it seemed to work fine without them. You'll see a rubber band on the back of the PCB in the photo - this was to prevent the PCB from flexing down when typing, but it ended up being unnecessary.
 
 ![Install Keyboard PCB](./img/keyboard-assembly-05.jpg)
 
@@ -99,7 +99,7 @@ Using five M3x16 screws, join the screen back and the screen front, being carefu
 
 ### 3. Assemble the Hinges
 
-This ingenious friction hinge design was created by [KatDelgado on Printables](https://www.printables.com/model/658393-friction-hinge-mechanism). The shaft that goes into the threaded slider should be very tight as this is what provides the resistance and keep the screen upright. No glue should be required.
+This ingenious friction hinge design was created by [KatDelgado on Printables](https://www.printables.com/model/658393-friction-hinge-mechanism). The shaft that goes into the threaded slider should be very tight as this is what provides the resistance and keeps the screen upright. No glue should be required.
 
 1. Insert the shaft into the threaded slider.
 2. Screw the shaft into the hinge body.
@@ -118,7 +118,7 @@ Slide the hinges into the slots on the bottom of the screen assembly.
 ### 5. Route the Screen Cables Through the Case Bottom
 
 1. Route the DSI cable and 4 pin cable through the case bottom next to the battery.
-2. Slide the case lid into place
+2. Slide the case lid into place.
 
 ![Route Screen Cables](./img/screen-assembly-04.jpg)
 

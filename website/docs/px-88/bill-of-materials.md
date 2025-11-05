@@ -5,7 +5,7 @@ description: Everything you need to build the PX-88.
 
 # Bill of Materials
 
-These are are the components you'll need to build the PX-88. I've linked to either the manufacturer where possible, or to Amazon, were I purchased most of my parts. Often the Amazon link will be a set of multiple variants/sizes, so you may be able to find the same part on it's own elsewhere. If you can find the parts at a smaller supplier like [Adafruit](https://www.adafruit.com/), please consider supporting them instead.
+These are the components you'll need to build the PX-88. I've linked to either the manufacturer where possible, or to Amazon, where I purchased most of my parts. Often the Amazon link will be a set of multiple variants/sizes, so you may be able to find the same part on its own elsewhere. If you can find the parts at a smaller supplier like [Adafruit](https://www.adafruit.com/), please consider supporting them instead.
 
 ## Keyboard
 
@@ -16,15 +16,15 @@ These are are the components you'll need to build the PX-88. I've linked to eith
 | **PCB Mount Stabilizers**                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | [mechanicalkeyboards.com](https://mechanicalkeyboards.com/products/durock-stabilizers-v2-pcb-mount-screw-in-tkl-kit) |
 | **Keyboard Switches - Cherry MX Compatible (x70)** | You can of course get whatever type of switches you prefer. But since there is no plate for the switches, just make sure you get switches that have 5 pins (the extra two plastic pins on the sides) for better stability.                                                                                                                                                                                                                                      | [mechanicalkeyboards.com](https://mechanicalkeyboards.com/products/cherry-mx2a-blue-60g-clicky)                      |
 | **Keycaps - MX Compatible (x70)**                  | Flat profiles like DSA or XDA match the portable computer aesthetic well and are more flexible since they don't need to go in a specific row. But any MX compatible keycaps will work. Note that if you get the linked 60% modifiers, you'll still need a `1.75U Shift`, a `1U Fn`, and the four `1U` keys you want on the right (typically `Del` or `Home`, `PgUp`, `PgDn`, and `End`). The "Alternate" kit will cover that and hopefully comes back in stock. | [spkeyboards.com](https://spkeyboards.com/products/dsa-dolch?variant=49434848428310)                                 |
-| **Short USB-C to USB-A Cable**                     | I had one in my hoarded cables that I was able to use. It just has to reach from the keyboard to the Pi, so it can be quite short: ~150mm (6in).                                                                                                                                                                                                                                                                                                                |                                                                                                                      |
+| **Short USB-C to USB-A Cable**                     | I had one in my hoarded cables that I was able to use. It just has to reach from the keyboard to the Pi, so it can be quite short: ~150mm (6 in).                                                                                                                                                                                                                                                                                                               |                                                                                                                      |
 
 ## Screen
 
-| Component                                         | Notes                                                                                                   | Link                                                           |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **Waveshare 7.9inch DSI LCD**                     |                                                                                                         | [waveshare.com](https://www.waveshare.com/7.9inch-dsi-lcd.htm) |
-| **500mm DSI Cable**                               | These may be labeled to be used with the Raspberry Pi Camera, but will work for the DSI screen as well. | [amazon.com](https://www.amazon.com/dp/B08662272F)             |
-| **200mm Dupont Male to Female Jumper Wires (x4)** |                                                                                                         | [amazon.com](https://www.amazon.com/dp/B0BRTHR2RL)             |
+| Component                                         | Notes                                                                                                     | Link                                                           |
+| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| **Waveshare 7.9inch DSI LCD**                     |                                                                                                           | [waveshare.com](https://www.waveshare.com/7.9inch-dsi-lcd.htm) |
+| **500mm DSI Cable**                               | These may be labeled for use with the Raspberry Pi Camera, but they will work for the DSI screen as well. | [amazon.com](https://www.amazon.com/dp/B08662272F)             |
+| **200mm Dupont Male to Female Jumper Wires (x4)** |                                                                                                           | [amazon.com](https://www.amazon.com/dp/B0BRTHR2RL)             |
 
 ## Computer
 
@@ -44,7 +44,7 @@ These are are the components you'll need to build the PX-88. I've linked to eith
 
 ## Screws and More
 
-I used self-tapping M3 screws to avoid having to use heatset inserts. You may be able to use normal M3 screws instead, but I have not tested that. There is enough room for socket head caps, so other heads should work as well.
+I used self-tapping M3 screws to avoid having to use heat-set inserts. You may be able to use normal M3 screws instead, but I have not tested that. There is enough room for socket head caps, so other heads should work as well.
 
 | Component                         | Quantity | Notes                                                                   | Link                                               |
 | --------------------------------- | -------- | ----------------------------------------------------------------------- | -------------------------------------------------- |

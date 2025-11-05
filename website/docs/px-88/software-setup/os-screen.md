@@ -13,14 +13,14 @@ description: Installing Raspberry Pi OS and configuring the display.
 
 :::tip[OS customization]
 
-I highly recommend configuring WiFi and SSH options in the imager under Use **"OS customization -> Edit Settings"**. This will allow the Pi to connect to your WiFi right after the first boot, and you can SSH in to more easily configure it. You can choose a hostname and username. For the purposes of this guide, we'll assume the hostname is `typeframe.local` and the username is `pi`. Leaving the username as `pi` will make things easier on you later as it's hardcoded in some scripts.
+I highly recommend configuring WiFi and SSH options in the imager under **"OS customization -> Edit Settings"**. This will allow the Pi to connect to your WiFi right after the first boot, and you can SSH in to more easily configure it. You can choose a hostname and username. For the purposes of this guide, we'll assume the hostname is `typeframe.local` and the username is `pi`. Leaving the username as `pi` will make things easier on you later as it's hardcoded in some scripts.
 
 :::
 
 ### 2. Configure Display Support
 
-1. After image flashing is completed, open the `config.txt` file in the root directory of the SD card
-2. Add the following code at the end of `config.txt`, save and safely eject the SD card:
+1. After image flashing is completed, open the `config.txt` file in the root directory of the SD card.
+2. Add the following code at the end of `config.txt`, save, and safely eject the SD card:
 
    ```
    dtoverlay=vc4-kms-v3d
@@ -30,14 +30,14 @@ I highly recommend configuring WiFi and SSH options in the imager under Use **"O
    # dtoverlay=vc4-kms-dsi-waveshare-panel,7_9_inch,dsi0
    ```
 
-If you boot before adding this, you can SSH in to the Pi and edit the file in `/boot/firmware/config.txt`. Then reboot.
+If you boot before adding this, you can SSH into the Pi and edit the file in `/boot/firmware/config.txt`. Then reboot.
 
 ### 3. First Boot
 
 1. Insert the SD card into the Raspberry Pi.
 2. Plug the USB power cable into the Pi, _not_ the Power Management HAT if you have it installed.
 3. The Raspberry Pi will power on - wait for a few seconds for the display to initialize.
-4. You're booted up - the touch screen should work but you'll still need to rotate the screen.
+4. You're booted up - the touch screen should work, but you'll still need to rotate the screen.
 
 ## SSH into the Raspberry Pi
 
@@ -51,19 +51,19 @@ This will allow you to copy and paste commands more easily than working directly
 
 ## Screen Rotation Configuration
 
-The default display orientation is portrait. We want it to be landscape. You'll need to set this in two places, one for the desktop environment and one for the terminal.
+The default display orientation is portrait. We want it to be landscape. You'll need to set this in two places: one for the desktop environment and one for the terminal.
 
 ### 1. Desktop Configuration
 
 1. Open **"Control Centre" → "Screens"** from the desktop menu. _In older versions of Raspberry Pi OS, this may be under "Preferences" → "Screen Configuration"._
 
-2. Go to **"Screens" → "DSI-2" → "Orientation"**, choose "Right", and finally click **"Apply"** to complete the display and touch synchronous rotation
+2. Go to **"Screens" → "DSI-2" → "Orientation"**, choose "Right", and finally click **"Apply"** to complete the display and touch synchronous rotation.
 
 For detailed steps with images, see the [Waveshare wiki documentation](https://www.waveshare.com/wiki/7.9inch_DSI_LCD#Bookworm_Touch_Screen_Rotation).
 
 ### 2. Disable the On-Screen Keyboard
 
-By default the on-screen keyboard will pop up whenever you select a text field. You'll find the option to disable it under **"Control Centre" → "Display" → "On-Screen Keyboard"**. Select **"Disabled"**
+By default, the on-screen keyboard will pop up whenever you select a text field. You'll find the option to disable it under **"Control Centre" → "Display" → "On-Screen Keyboard"**. Select **"Disabled"**.
 
 ### 3. Terminal Configuration
 
@@ -85,7 +85,7 @@ By default the on-screen keyboard will pop up whenever you select a text field. 
    video=DSI-1:400x1280e,rotate=270 console=tty1 root=PARTUUID=...
    ```
 
-3. Save the file and exit `(Ctrl+X, Y, Enter)`,
+3. Save the file and exit `(Ctrl+X, Y, Enter)`.
 
 4. Restart to apply the rotation.
 

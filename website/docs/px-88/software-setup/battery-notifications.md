@@ -7,7 +7,7 @@ description: Set up desktop battery notifications.
 # Battery Notifications Setup
 
 :::warning[WIP]
-This is a work in progress, it doesn't seem to be currently working correctly.
+This is a work in progress; it doesn't seem to be currently working correctly.
 :::
 
 The idea here is to have a background service that monitors the battery status from the Power Management HAT and sends desktop notifications when the battery is low.

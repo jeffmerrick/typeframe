@@ -6,7 +6,7 @@ description: Customize the boot splash screen.
 
 # Customize the Boot Splash Screen
 
-The Raspberry Pi displays a boot splash screen during startup. You can customize this screen to show a Typeframe-themed image or any other image of your choice. You can also hide it completely in `raspi-config` if you'd prefer.
+The Raspberry Pi displays a boot splash screen during startup. You can customize this screen to show a Typeframe-themed image or any other image of your choice. You can also hide it completely in `raspi-config` if you prefer.
 
 ### 1. Change Boot Splash Image
 

@@ -9,11 +9,11 @@ description: Set up the terminal-based application launcher.
 ![Launcher Screenshot](./img/launcher.png)
 
 This is a simple bash script that provides a terminal-based application launcher for the PX-88. It allows you to easily launch a full-screen browser window with a URL of your choice from a text-based menu when booting to the console.
-By default it opens Google Docs, but you can edit `launcher.sh` to open anything you'd like. It also allows you to control the screen brightness and view the battery status.
+By default, it opens Google Docs, but you can edit `launcher.sh` to open anything you'd like. It also allows you to control the screen brightness and view the battery status.
 
 ### 1. Configure Boot Behavior
 
-First set the Pi to boot to terminal instead of desktop:
+First, set the Pi to boot to terminal instead of desktop:
 
 ```bash
 sudo raspi-config nonint do_boot_behaviour B2
