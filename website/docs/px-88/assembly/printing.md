@@ -6,19 +6,21 @@ description: Tips for printing.
 
 # Printing the Case
 
+![PX-88 Exploded Wireframe](../img/typeframe-px-88-exploded-wireframe.png)
+
 ## Overview
 
 The case is split into parts that can be printed on a FDM printer with at least a 232mm x 130mm bed.
 
 ## Print Files
 
-- **3MF** - Saved from PrusaSlicer with painted on supports. These should be ready to slice and print.
-- **STL** - Raw STL files for each part. Parts with multiples are suffixed with `x`.
+- [**3MF**](https://www.github.com/jeffmerrick/typeframe/px-88/hardware/print-files/3MF) - Saved from PrusaSlicer with painted on supports. These should be ready to slice and print.
+- [**STL**](https://www.github.com/jeffmerrick/typeframe/px-88/hardware/print-files/STL) - Raw STL files for each part. Parts with multiples are suffixed with `x`.
 
 ## Source Files
 
-- **STEP** - Step file of the entire assembly.
-- **F3Z** - I unfortunately can't export a .f3d because of some linked components that I couldn't figure out how to unlink. Hopefully the .f3z will work if you want to dig into it. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
+- [**STEP**](https://www.github.com/jeffmerrick/typeframe/px-88/hardware/source-files/typeframe-px-88.step) - Step file of the entire assembly.
+- [**F3Z**](https://www.github.com/jeffmerrick/typeframe/px-88/hardware/source-files/typeframe-px-88.f3z) - I unfortunately can't export a .f3d because of some linked components. Hopefully the .f3z will work if you want to dig into it. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
 
 ## Tolerances and Parameters
 
@@ -31,8 +33,12 @@ Other parameters include screw sizes and wall thickness. However modify these wi
 
 ## Supports
 
-The files print pretty well with minimal supports. But you will need supports for some parts, mostly for the larger port holes. The 3MF files have supports painted on so you can see where I added them.
+The files print pretty well with minimal supports. But you will need supports for some parts, mostly for the larger port holes. The 3MF files have supports painted.
 
 ## Print Settings
 
-I printed on a Prusa MK4 with a 0.4mm nozzle and 0.2mm layer height using PLA filament.
+I printed on a Prusa MK4 with a 0.4mm nozzle and 0.2mm layer height using PLA filament. I had best results with a smooth PEI sheet for bed adhesion since there are some large parts.
+
+## Credits
+
+The ingenious friction hinge design is from [KatDelgado on Printables](https://www.printables.com/model/658393-friction-hinge-mechanism). Thanks to the detailed information there I was able to adapt it for this project.

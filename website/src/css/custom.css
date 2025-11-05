@@ -116,6 +116,11 @@ h6 {
 
 .footer__copyright {
   text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  padding-top: 1rem;
 }
 
 .card {

@@ -84,6 +84,11 @@ const config: Config = {
           label: "Build Guide",
         },
         {
+          to: "/gallery",
+          label: "Gallery",
+          position: "right",
+        },
+        {
           href: "https://github.com/jeffmerrick/typeframe",
           label: "GitHub",
           position: "right",
@@ -97,7 +102,7 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "PX-88",
+              label: "PX-88 Build Guide",
               to: "/docs/px-88",
             },
             {
@@ -113,10 +118,7 @@ const config: Config = {
               label: "GitHub",
               href: "https://github.com/jeffmerrick/typeframe",
             },
-            {
-              label: "Printables (Coming Soon)",
-              href: "https://printables.com",
-            },
+
             {
               label: "Instagram",
               href: "https://www.instagram.com/jeffsbuilds/",
@@ -124,7 +126,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `A project by <a href="https://www.wireform.io" target="_blank" rel="noopener noreferrer">Jeff</a>.<br/>`,
+      copyright: `<span>A project by <a href="https://www.instagram.com/jeffsbuilds" target="_blank" rel="noopener noreferrer">Jeff</a></span> <a href="/license">Licenses</a>`,
     },
     prism: {
       theme: prismThemes.gruvboxMaterialDark,

@@ -118,9 +118,13 @@ Solder two female Dupont connectors to the two terminals on the status LED. Sold
 
 Note that the status LED won't work until some confguration is done later in the software setup section.
 
-Here's a photo of everything hooked up when it's installed in the case later:
+My test connections:
 
-![Completed Connections](./img/side-assembly-05.jpg)
+![Most Connections](./img/test-connections-01.jpg)
+
+Everything connected when it's installed in the case later:
+
+![Completed Connections](./img/side-assembly-04.jpg)
 
 ## Testing
 
