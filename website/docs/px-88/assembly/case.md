@@ -77,7 +77,7 @@ Flip over the case bottom. Using 4 M3x20 screws, attach the screen frame to the 
 
 ### 3. Install the Battery
 
-Make sure you have the extension cable connected to the battery. (I don't in the photo, but it's easier to do now.) Secure the battery in the left side of the case bottom using thermal tape.
+Make sure you have the extension cable connected to the battery. (I don't in the photo, but it's easier to do in this step.) Secure the battery in the left side of the case bottom using thermal tape.
 
 ![Install Battery](./img/case-bottom-assembly-03.jpg)
 

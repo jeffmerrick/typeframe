@@ -14,13 +14,13 @@ The case is split into parts that can be printed on an FDM printer with at least
 
 ## Print Files
 
-- [**3MF**](https://www.github.com/jeffmerrick/typeframe/px-88/hardware/print-files/3MF) - Saved from PrusaSlicer with painted-on supports. These should be ready to slice and print.
-- [**STL**](https://www.github.com/jeffmerrick/typeframe/px-88/hardware/print-files/STL) - Raw STL files for each part. Parts with multiples are suffixed with `_x#`.
+- [**3MF**](https://github.com/jeffmerrick/typeframe/tree/main/px-88/hardware/print-files/3MF) - Saved from PrusaSlicer with painted-on supports. These should be ready to slice and print.
+- [**STL**](https://github.com/jeffmerrick/typeframe/tree/main/px-88/hardware/print-files/STL) - Raw STL files for each part. Parts with multiples are suffixed with `_x#`.
 
 ## Source Files
 
-- [**STEP**](https://www.github.com/jeffmerrick/typeframe/px-88/hardware/source-files/typeframe-px-88.step) - Step file of the entire assembly.
-- [**F3Z**](https://www.github.com/jeffmerrick/typeframe/px-88/hardware/source-files/typeframe-px-88.f3z) - I, unfortunately, can't export a .f3d because of some linked components. Hopefully, the .f3z will work if you want to dig into it. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
+- [**STEP**](https://github.com/jeffmerrick/typeframe/tree/main/px-88/hardware/source-files/typeframe-px-88.step) - Step file of the entire assembly.
+- [**F3Z**](https://github.com/jeffmerrick/typeframe/tree/main/px-88/hardware/source-files/typeframe-px-88.f3z) - I can't seem to export a .f3d because of some linked components. Hopefully, the .f3z will work if you want to dig into it. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
 
 ## Tolerances and Parameters
 

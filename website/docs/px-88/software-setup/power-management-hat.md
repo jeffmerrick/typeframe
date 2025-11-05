@@ -103,48 +103,53 @@ You can also find this in the `raspi-config` interface under **"Interface Option
 
 This final step flashes firmware that enables button control.
 
-1. Get Demo Source Code
+:::warning[Check Power Connection]
+Make sure you have power connected directly to the Pi and not the Power Management HAT before proceeding with the firmware flashing. The HAT will restart and we don't want the Pi to lose power during this process.
+:::
 
-   ```bash
-   cd ~
-   wget https://files.waveshare.com/upload/2/27/Power-example.7z
-   7z x ./Power-example.7z
-   ```
+### 1. Get Demo Source Code
 
-2. Edit Source Code to Enable Button Demo
+```bash
+cd ~
+wget https://files.waveshare.com/upload/2/27/Power-example.7z
+7z x ./Power-example.7z
+```
 
-   Open the main C file (`~/Power-example/Power_Management_HAT.c`) and enable the `Button_Ctr_` lines while commenting out the `Period_Time_` lines.
+### 2. Edit Source Code to Enable Button Demo
 
-   ```c
-      int main()
-      {
-      /* Initialize function */
-      Button_Ctr_Init();
-      //Period_Time_Init();
-      //Cycle_Time_Init();
+Open the main C file (`~/Power-example/Power_Management_HAT.c`) and enable the `Button_Ctr_` lines while commenting out the `Period_Time_` lines.
 
-      /*Calls loop functions*/
-      while (true)
-      {
-         Button_Ctr_Loop();
-         //Period_Time_Loop();
-         //Cycle_Time_Loop();
-      }
+```c
+   int main()
+   {
+   /* Initialize function */
+   Button_Ctr_Init();
+   //Period_Time_Init();
+   //Cycle_Time_Init();
 
-      return 0;
-      }
-   ```
+   /*Calls loop functions*/
+   while (true)
+   {
+      Button_Ctr_Loop();
+      //Period_Time_Loop();
+      //Cycle_Time_Loop();
+   }
 
-3. Flash the Firmware to the HAT
+   return 0;
+   }
+```
 
-   Place the HAT in **BOOTSEL mode**, then run:
+### 3. Flash the Firmware to the HAT
 
-   ```bash
-   openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg -c "program ./Power_Management_HAT.elf verify reset exit"
-   ```
+Place the HAT in **BOOTSEL mode**, then run:
 
-4. Confirm the Firmware is Working
-   Unplug the USB cable from the Pi, reconnect it to the Power Management HAT. You can now use the PWR button to turn the Pi on and off.
+```bash
+openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg -c "program ./Power_Management_HAT.elf verify reset exit"
+```
+
+### 4. Confirm the Firmware is Working
+
+Unplug the USB cable from the Pi, reconnect it to the Power Management HAT. You can now use the onboard power button to turn the Pi on and off.
 
 ---
 

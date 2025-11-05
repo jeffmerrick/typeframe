@@ -8,7 +8,7 @@ description: Hooking up the electronics.
 
 ## Overview
 
-Here, I'll go over how to connect the electronics for the PX-88. This includes connecting the Raspberry Pi, screen, Power Management HAT, and other components like the power switch and status light. You will likely want to hook everything up before you start putting the case together to make sure everything works. Most of these steps will be repeated later with less detail in the full assembly guide.
+Here, I'll go over how to connect the electronics for the PX-88. This includes connecting the Raspberry Pi, screen, Power Management HAT, and other components like the power switch and status light. You will likely want to hook most things up before you start putting the case together to make sure the key components work. These steps will be repeated later with less detail in the full assembly guide.
 
 ## Battery and Power Management HAT
 
@@ -26,7 +26,7 @@ You want it to look like this:
 
 ![Battery Connector Polarity](./img/test-connections-02.jpg)
 
-Other photos may be a bit confusing as the extension cable does not have the wires swapped, but the battery connector does.
+Photos where the battery connects to the HAT may be a bit confusing as the extension cable does not have the wires swapped, but the battery connector does.
 
 ### 2. Attach the 200mm Extension Cable to the Battery
 
@@ -76,7 +76,7 @@ Here's an older photo from when I was testing things out. You won't need to have
 
 ## Keyboard
 
-If you want to test out the keyboard, you can hook it up, but you'll need to follow the keyboard assembly to get the stabilizers, switches, and keycaps installed as well. You may want to wait until later and use SSH or an extra keyboard for initial testing.
+If you want to test out the keyboard, you can hook it up, but you'll need to follow the keyboard assembly to get the stabilizers, switches, and keycaps installed as well. You'll be able to assemble the rest of the keyboard case around it later, just removing a few of the switches and keys to access the screw mount points. But, you may elect to wait until later and use SSH or an extra keyboard for initial testing.
 
 ### 1. Connect Keyboard to Daughterboard
 
@@ -88,13 +88,13 @@ Using your small USB-A to USB-C cable, connect the daughterboard to one of the R
 
 ## Power Switch
 
-You'll need to do a bit of soldering here. You can also skip this step and use the onboard power button on the Power Management HAT for testing. If you choose to solder before installing the switch in the case, you may want to use Dupont connectors to make it easier to connect and disconnect later. (Otherwise, you'll likely need to re-solder!)
+You'll need to do a bit of soldering here. You can also skip this step and use the onboard power button on the Power Management HAT for testing. If you choose to solder before installing the switch in the case, you may want to use Dupont jumpers to make it easier to connect and disconnect later. (Otherwise, you'll likely need to re-solder!)
 
 ### 1. Solder Wires to Power Switch
 
 ![Solder Wires to Power Management HAT](./img/soldering-power-switch-all.png)
 
-Solder two female Dupont connectors to the two terminals on the power switch. It doesn't matter which wire goes to which terminal. My soldering kit came with some heat shrink tubing, which I used here to cover the exposed contacts after soldering.
+Solder two female Dupont jumpers to the two terminals on the power switch. It doesn't matter which wire goes to which terminal. My soldering kit came with some heat shrink tubing, which I used here to cover the exposed contacts after soldering.
 
 ### 2. Solder Two Male Dupont Connectors to the Power Management HAT.
 
