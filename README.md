@@ -1,6 +1,9 @@
-# Typeframe
+![Logo](./website/static/img/logo-dark.svg#gh-dark-mode-only)
+![Logo](./website/static/img/logo-light.svg#gh-light-mode-only)
 
-The Typeframe project is a collection of open-source hardware and software for building writer/cyberdecks. The first model, the PX-88, is a portable-ish computer inspired by the [Epson PX-4](https://www.homecomputermuseum.nl/en/collectie/epson/epson-px-4). The goal was to create a writerdeck that could be used with modern web-based editors.
+The Typeframe project is a collection of open-source hardware and software for building writerdecks/cyberdecks. The first model, the PX-88, is a portable-ish computer inspired by the [Epson PX-4](https://www.homecomputermuseum.nl/en/collectie/epson/epson-px-4). The goal was to create a writerdeck that could be used with modern web-based editors.
+
+![Typeframe PX-88](./website/static/img/github-preview.jpg)
 
 ## Features
 
