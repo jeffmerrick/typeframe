@@ -13,9 +13,7 @@ The Typeframe project is a collection of open-source hardware and software for b
 
 ## Documentation
 
-For full assembly guides, bill of materials, and software setup instructions, please visit the website:
-
-**[typeframe.net](https://www.typeframe.net)**
+For full assembly guides, bill of materials, and software setup instructions, please visit **[typeframe.net](https://www.typeframe.net)**
 
 ## Project Structure
 
