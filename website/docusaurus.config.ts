@@ -65,6 +65,13 @@ const config: Config = {
     ],
   ],
 
+  scripts: [
+    {
+      src: "https://scripts.simpleanalyticscdn.com/latest.js",
+      async: true,
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/typeframe-social-card.jpg",
@@ -127,7 +134,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `<span>A project by <a href="mailto:jeff@typeframe.net" target="_blank" rel="noopener noreferrer">Jeff</a></span> <a href="/license">Licenses</a>`,
+      copyright: `<span>A project by <a href="mailto:jeff@typeframe.net" target="_blank" rel="noopener noreferrer">Jeff</a></span> <span><a href="/privacy">Privacy</a> &bull; <a href="/license">Licenses</a>`,
     },
     prism: {
       theme: prismThemes.gruvboxMaterialDark,
