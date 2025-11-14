@@ -27,7 +27,7 @@ The case is split into parts that can be printed on an FDM printer with at least
 Tolerances are pretty tight - you may be able to change Parameters in the Fusion 360 file to make adjustments. Alternatively, you may just want to do a bit of sanding to make parts fit if things are too snug. There are two parameters of interest:
 
 - **`closeFitTolerance`**: This is the one I'm using almost everywhere. Default is 0.05mm.
-- **`hingeShaftOffset`**: This determines the resistance level of the hinges. You want this quite tight as they will loosen over time. The default is -0.07mm.
+- **`hingeShaftOffset`**: This determines the resistance level of the hinges. You want this quite tight as they will loosen over time. **Update:** After some testing I reduced the default to 0mm. The hinges ended up being too loose after normal usage with any offset here. Still doing some testing on this, proper fix may be increasing the width of the hinges instead.
 
 Other parameters include screw sizes and wall thickness. However, modify these with caution as they may break the design if changed.
 
