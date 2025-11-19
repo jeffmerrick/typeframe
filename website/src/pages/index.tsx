@@ -89,7 +89,10 @@ function FrameCard() {
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={siteConfig.title}>
+    <Layout
+      title={siteConfig.title}
+      description="A collection of open-source hardware and software for building writerdecks/cyberdecks."
+    >
       <div className="container">
         <FrameCard />
       </div>
