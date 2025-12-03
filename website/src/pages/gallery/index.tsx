@@ -53,6 +53,11 @@ export default function Gallery(): ReactNode {
             require("../../../docs/px-88/img/typeframe-px-88-11.jpg"),
           ]}
         />
+        <p>
+          Did you build your own?{" "}
+          <a href="mailto:jeff@typeframe.net">E-mail me</a> photos and I'll add
+          them to the gallery!
+        </p>
       </div>
     </Layout>
   );
