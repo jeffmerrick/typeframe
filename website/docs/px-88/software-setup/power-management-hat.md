@@ -139,7 +139,16 @@ Open the main C file (`~/Power-example/Power_Management_HAT.c`) and enable the `
    }
 ```
 
-### 3. Flash the Firmware to the HAT
+### 3. Compile the Firmware
+
+```bash
+cd ~/Power-example/build/
+export PICO_SDK_PATH=/home/pi/pico/pico-sdk
+cmake ..
+make -j
+```
+
+### 4. Flash the Firmware to the HAT
 
 Place the HAT in **BOOTSEL mode**, then run:
 
@@ -147,7 +156,7 @@ Place the HAT in **BOOTSEL mode**, then run:
 openocd -f interface/raspberrypi-swd.cfg -f target/rp2040.cfg -c "program ./Power_Management_HAT.elf verify reset exit"
 ```
 
-### 4. Confirm the Firmware is Working
+### 5. Confirm the Firmware is Working
 
 Unplug the USB cable from the Pi, reconnect it to the Power Management HAT. You can now use the onboard power button to turn the Pi on and off.
 
