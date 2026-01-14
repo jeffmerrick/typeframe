@@ -99,6 +99,10 @@ Using five M3x16 screws, join the screen back and the screen front, being carefu
 
 ### 3. Assemble the Hinges
 
+:::warning[Hinge Update Coming]
+The hinges seem to get loose pretty quickly with normal usage and have trouble holding up the screen. I plan to revisit them in the future, but just be aware you'll likely experience this issue.
+:::
+
 This ingenious friction hinge design was created by [KatDelgado on Printables](https://www.printables.com/model/658393-friction-hinge-mechanism). The shaft that goes into the threaded slider should be very tight as this is what provides the resistance and keeps the screen upright. No glue should be required.
 
 1. Insert the shaft into the threaded slider.
