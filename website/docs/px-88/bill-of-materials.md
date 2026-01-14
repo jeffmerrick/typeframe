@@ -24,7 +24,7 @@ These are the components you'll need to build the PX-88. I've linked to the manu
 | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **Waveshare 7.9inch DSI LCD**                            |                                                                                                           | [waveshare.com](https://www.waveshare.com/7.9inch-dsi-lcd.htm)                                           |
 | **500mm DSI Cable**                                      | These may be labeled for use with the Raspberry Pi Camera, but they will work for the DSI screen as well. | [amazon.com](https://www.amazon.com/dp/B08662272F)                                                       |
-| **150-200mm Dupont Female to Male Extension Wires (x4)** |                                                                                                           | [adafruit.com](https://www.adafruit.com/product/1954) [amazon.com](https://www.amazon.com/dp/B0BRTHR2RL) |
+| **150-200mm Dupont Female to Male Extension Wires (x4)** | Note that these need to be low-profile (it's a tight fit) and they apparently come in different sizes.    | [adafruit.com](https://www.adafruit.com/product/1954) [amazon.com](https://www.amazon.com/dp/B0BRTHR2RL) |
 
 ## Computer
 
