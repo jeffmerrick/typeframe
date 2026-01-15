@@ -69,11 +69,11 @@ If you need to customize the parameters further for your printer, you can open t
 1. Download [Fusion 360 for Personal Use](https://www.autodesk.com/products/fusion-360/personal).
 2. Open the `typeframe-px-88.f3z` file.
 3. Go to the **Modify** menu and select **Change Parameters**. <br />
-   ![Fusion 360 Change Parameters](../img/f360-1.png)
+   ![Fusion 360 Change Parameters](../../img/f360-1.png)
 4. Modify the parameters as needed.
-   ![Fusion 360 Change Parameters](../img/f360-2.png)
+   ![Fusion 360 Change Parameters](../../img/f360-2.png)
 5. You can now export new STL files with **File > Export**. Make sure only the part you want to export is visible in the browser. (Otherwise it seems to export out everything visible.)<br />
-   ![Fusion 360 Change Parameters](../img/f360-3.png)
+   ![Fusion 360 Change Parameters](../../img/f360-3.png)
 6. Alternatively you may be able to send the selected part directly to your slicer with **File > 3D Print**. No need to hide the other parts this way.
 
 ## Supports

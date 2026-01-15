@@ -1,5 +1,5 @@
 ---
-title: Typeframe PS-85
+title: PS-85
 sidebar_position: 2
 hide_table_of_contents: true
 ---
@@ -7,10 +7,29 @@ hide_table_of_contents: true
 import Image from "@theme/IdealImage";
 import DocCardList from "@theme/DocCardList";
 
-# Typeframe PS-85 (Coming Soon)
+# Typeframe PS-85
 
 <p>
   <Image img={require("./img/typeframe-ps-85-preview.jpg")} />
 </p>
 
-<!-- <DocCardList /> -->
+The PS-85 is a rugged barebones portable computer inspired by the Alien universe.
+
+Before I built the [PX-88](../px-88/), I tried to modify the awesome [Penkesu](https://penkesu.computer) by Penk Chen to fit a hot-swap keyboard PCB. While I was somewhat successful, I wasn't happy with the result and it lost the charm of the original. After pivoting to the PX-88, I still had the working guts from my Penkesu experiment - so I decided to design a simple slate-style case around it. You'll find the parts and wiring are very similar the Penkesu with a couple of additions.
+
+### Features
+
+- **Carrying Handle**: A sturdy handle for easy transport.
+- **Exposed GPIO**: Access to all GPIO pins for tinkering or adding your own HATs.
+- **[MU/TH/UR](https://avp.fandom.com/wiki/MU/TH/UR_6000) LED Matrix**: An optional 9x16 LED matrix, just for fun.
+- **Mechanical Keyboard**: A 40% keyboard with hot-swappable switches.
+- **One Power Connection**: A Micro USB port that powers the device _and_ charges the battery.
+- **Raspberry Pi Zero W:**: Low power and compact.
+
+### Caveats
+
+- **Lite OS**: With a Pi Zero you're likely going to want to run Raspberry Pi OS Lite and have a command-line only interface.
+- **No Touch Screen**: While the screen supports touch, it requires a separate USB connection. (Doesn't matter if you're using the Lite OS anyway.)
+- **No Hardware Screen Brightness**: The HDMI screen doesn't allow brightness control like a DSI screen.
+
+<DocCardList />

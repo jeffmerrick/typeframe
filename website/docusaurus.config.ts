@@ -86,15 +86,16 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "docsSidebar",
           position: "right",
-          label: "Build Guide",
+          label: "PX-88",
+          to: "/docs/px-88",
+          style: { fontWeight: "bold" },
         },
         {
-          to: "/gallery",
-          label: "Gallery",
           position: "right",
+          label: "PS-85",
+          to: "/docs/ps-85",
+          style: { fontWeight: "bold" },
         },
         {
           href: "https://github.com/jeffmerrick/typeframe",
@@ -107,14 +108,14 @@ const config: Config = {
       style: "light",
       links: [
         {
-          title: "Docs",
+          title: "Build Guides",
           items: [
             {
-              label: "PX-88 Build Guide",
+              label: "PX-88 ",
               to: "/docs/px-88",
             },
             {
-              label: "PS-85 (Coming Soon)",
+              label: "PS-85 (New)",
               to: "/docs/ps-85",
             },
           ],

@@ -5,7 +5,7 @@ description: Everything you need to build the PX-88.
 
 # Bill of Materials
 
-These are the components you'll need to build the PX-88. I've linked to the manufacturer, Adafruit, or Amazon, where I purchased most of my parts. Often the Amazon link will be a set of multiple variants/sizes, so you may be able to find the same part individually elsewhere. If you can find get the parts at [Adafruit](https://www.adafruit.com/), please consider supporting them.
+These are the components you'll need to build the PX-88. I've linked to the manufacturer, Adafruit, or Amazon, where I purchased most of my parts. Often the Amazon link will be a set of multiple variants/sizes, so you may be able to find the same part individually elsewhere. If you can find the parts at [Adafruit](https://www.adafruit.com/), please consider supporting them.
 
 ## Keyboard
 
