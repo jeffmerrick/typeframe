@@ -3,8 +3,27 @@
  * and scoped locally.
  */
 
+.frame {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 2rem 0;
+  box-shadow: var(--ifm-global-shadow-md);
+  background-image: repeating-linear-gradient(
+    23deg,
+    var(--ifm-color-emphasis-200) 0px,
+    var(--ifm-color-emphasis-100) 1px,
+    transparent 0px,
+    transparent 2px
+  );
+}
+
 .frameImage {
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
+}
+
+.frameImage img {
+  border-radius: 0;
 }
 
 .frameImage__simple {
