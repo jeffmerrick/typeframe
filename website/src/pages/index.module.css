@@ -53,4 +53,8 @@
 .frameButtons {
   padding: 2rem 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }

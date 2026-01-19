@@ -28,7 +28,7 @@ _See more on tolerances below._
 ## Source Files
 
 - [**STEP**](https://github.com/jeffmerrick/typeframe/tree/main/px-88/hardware/source-files/typeframe-px-88.step) - Step file of the entire assembly.
-- [**F3Z**](https://github.com/jeffmerrick/typeframe/tree/main/px-88/hardware/source-files/typeframe-px-88.f3z) - I can't seem to export a .f3d because of some linked components. Hopefully, the .f3z will work if you want to dig into it. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
+- [**F3Z**](https://github.com/jeffmerrick/typeframe/tree/main/px-88/hardware/source-files/typeframe-px-88.f3z) - Fusion 360 file. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
 
 ## Tolerances and Parameters
 

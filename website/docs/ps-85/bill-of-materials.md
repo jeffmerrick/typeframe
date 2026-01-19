@@ -44,25 +44,26 @@ These are the components you'll need to build the PS-85. I've linked to the manu
 
 ## LED Matrix (Optional)
 
-| Component                                                         | Notes | Link                                                  |
-| ----------------------------------------------------------------- | ----- | ----------------------------------------------------- |
-| **2x20 Socket Riser Header for Raspberry Pi HATs and Bonnets**    |       | [adafruit.com](https://www.adafruit.com/product/4079) |
-| **Adafruit CharliePlex LED Matrix Bonnet - 8x16 Warm White LEDs** |       | [adafruit.com](https://www.adafruit.com/product/4122) |
+| Component                                                         | Notes                                                                     | Link                                                  |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **2x20 Socket Riser Header for Raspberry Pi HATs and Bonnets**    | You may want this either way to make the GPIO pins more easily accessible | [adafruit.com](https://www.adafruit.com/product/4079) |
+| **Adafruit CharliePlex LED Matrix Bonnet - 8x16 Warm White LEDs** |                                                                           | [adafruit.com](https://www.adafruit.com/product/4122) |
 
 ## Screws and More
 
 I used self-tapping M3 screws to avoid having to use heat-set inserts. You may be able to use normal M3 screws instead, but I have not tested that. There is enough room for socket head caps, so other heads should work as well.
 
-| Component                         | Quantity | Notes                                             | Link                                                    |
-| --------------------------------- | -------- | ------------------------------------------------- | ------------------------------------------------------- |
-| **M3 x 10mm Self-tapping Screws** | 2        |                                                   |                                                         |
-| **M3 x 16mm Self-tapping Screws** | 5        |                                                   |                                                         |
-| **M3 x 20mm Self-tapping Screws** | 2        |                                                   |                                                         |
-| **M3 x 25mm Self-tapping Screws** | 3        |                                                   |                                                         |
-| **M2.5 x 4mm Screws**             | 4        |                                                   |                                                         |
-| **M2.5 x 8mm Screws**             | 4        |                                                   |                                                         |
-| **M2.5 x 20mm Screws**            | 4        |                                                   |                                                         |
-| **M2 x 4mm Screws**               | 4        |                                                   |                                                         |
-| **Wire**                          |          |                                                   | [adafruit.com](https://www.adafruit.com/product/290)    |
-| **Matte White PLA Filament**      |          | If you're painting, any light color will be fine. | [amazon.com](https://www.amazon.com/dp/B089S1HB8K?th=1) |
-| **Heat Resistant Tape**           |          | For securing the battery in the case.             | [amazon.com](https://www.amazon.com/dp/B07F8TZZ4N)      |
+| Component                         | Quantity | Notes                                                                                                       | Link                                                    |
+| --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| **M3 x 10mm Self-tapping Screws** | 2        |                                                                                                             |                                                         |
+| **M3 x 16mm Self-tapping Screws** | 5        |                                                                                                             |                                                         |
+| **M3 x 20mm Self-tapping Screws** | 2        |                                                                                                             |                                                         |
+| **M3 x 25mm Self-tapping Screws** | 3        |                                                                                                             |                                                         |
+| **M2.5 x 4mm Screws**             | 4        |                                                                                                             |                                                         |
+| **M2.5 x 8mm Screws**             | 4        |                                                                                                             |                                                         |
+| **M2.5 x 20mm Screws**            | 4        |                                                                                                             |                                                         |
+| **M2 x 4mm Screws**               | 4        |                                                                                                             |                                                         |
+| **Wire**                          |          |                                                                                                             | [adafruit.com](https://www.adafruit.com/product/290)    |
+| **Matte White PLA Filament**      |          | If you're painting, any light color will be fine.                                                           | [amazon.com](https://www.amazon.com/dp/B089S1HB8K?th=1) |
+| **Heat Resistant Tape**           |          | For securing the battery in the case.                                                                       | [amazon.com](https://www.amazon.com/dp/B07F8TZZ4N)      |
+| **Grip Tape**                     |          | Optional, for the bottom of the case to keep it from sliding around. Anything rubber and grippy would work. | [amazon.com](https://www.amazon.com/dp/B0FBGYF432)      |

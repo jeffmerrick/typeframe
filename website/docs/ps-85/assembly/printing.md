@@ -6,6 +6,8 @@ description: Tips for printing.
 
 # Printing the Case
 
+![PS-85 Exploded Wireframe](../img/typeframe-ps-85-exploded-wireframe.png)
+
 ## Overview
 
 The case is split into parts that can be printed on an FDM printer with at least a 250mm x 200mm bed.
@@ -18,7 +20,11 @@ The case is split into parts that can be printed on an FDM printer with at least
 ## Source Files
 
 - [**STEP**](https://github.com/jeffmerrick/typeframe/tree/main/ps-85/hardware/source-files/typeframe-ps-85.step) - Step file of the entire assembly.
-- [**F3Z**](https://github.com/jeffmerrick/typeframe/tree/main/ps-85/hardware/source-files/typeframe-ps-85.f3z) - I can't seem to export a .f3d because of some linked components. Hopefully, the .f3z will work if you want to dig into it. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
+- [**F3Z**](https://github.com/jeffmerrick/typeframe/tree/main/ps-85/hardware/source-files/typeframe-ps-85.f3z) - Fusion 360 file. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
+
+## Keyboard Plate
+
+I generated the keyboard plate using [Keyboard STL Generator](https://github.com/jeffminton/keyboard_stl_generator). I modified the exported file, so if you want to use a different keyboard you'll likely need to do the same. But this should get you most of the way there!
 
 ## Tolerances and Parameters
 

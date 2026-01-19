@@ -48,8 +48,8 @@ function FrameCard() {
           <p>
             The PS-85 is a dedicated MU/TH/UR 6000 terminal with secure,
             shipwide wireless connectivity. Review priority directives, access
-            system diagnostics, or consult Mother from anywhere on the vessel—no
-            fixed console, no hardline dependency. Advanced
+            system diagnostics, or consult MU/TH/UR from anywhere on the vessel
+            - no fixed console, no hardline dependency. Advanced
             Weyland-Yutani-approved telemetry keeps you connected decks away
             from the core.
           </p>
@@ -64,7 +64,7 @@ function FrameCard() {
             Housed in a rugged enclosure with an integrated carrying handle, the
             PS-85 is designed to travel wherever duty takes you: the bridge,
             engineering, or inside a maintenance vent checking life-support
-            systems. A semiotic-standard keyboard provides precise, unambiguous
+            systems. A semiotic standard keyboard provides precise, unambiguous
             input in low-light, high-stress environments.
           </p>
           <p>
@@ -87,6 +87,12 @@ function FrameCard() {
       <div className={styles.frameButtons}>
         <Link className="button button--secondary button--lg" to="/docs/ps-85/">
           Build Your PS-85
+        </Link>
+        <Link
+          className="button button--outline button--secondary button--lg"
+          to="/docs/ps-85/gallery"
+        >
+          View Gallery
         </Link>
       </div>
       <hr />
@@ -158,6 +164,12 @@ function FrameCard() {
       <div className={styles.frameButtons}>
         <Link className="button button--secondary button--lg" to="/docs/px-88/">
           Build Your PX-88
+        </Link>
+        <Link
+          className="button button--outline button--secondary button--lg"
+          to="/docs/px-88/gallery"
+        >
+          View Gallery
         </Link>
       </div>
     </div>

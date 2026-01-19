@@ -87,6 +87,22 @@ const config: Config = {
       items: [
         {
           position: "right",
+          label: "PS-85",
+          style: { fontWeight: "bold" },
+          items: [
+            {
+              label: "Build Guide",
+              to: "/docs/ps-85",
+              activeBaseRegex: "^/docs/ps-85(/(?!gallery).*)?$",
+            },
+            {
+              label: "Gallery",
+              to: "/docs/ps-85/gallery",
+            },
+          ],
+        },
+        {
+          position: "right",
           label: "PX-88",
           style: { fontWeight: "bold" },
           items: [
@@ -101,12 +117,7 @@ const config: Config = {
             },
           ],
         },
-        {
-          position: "right",
-          label: "PS-85",
-          to: "/docs/ps-85",
-          style: { fontWeight: "bold" },
-        },
+
         {
           href: "https://github.com/jeffmerrick/typeframe",
           label: "GitHub",
@@ -137,7 +148,10 @@ const config: Config = {
               label: "GitHub",
               href: "https://github.com/jeffmerrick/typeframe",
             },
-
+            {
+              label: "Hackaday.io",
+              href: "https://hackaday.io/project/204522-typeframe",
+            },
             {
               label: "Instagram",
               href: "https://www.instagram.com/jeffsbuilds/",
