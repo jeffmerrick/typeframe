@@ -15,6 +15,84 @@ function FrameCard() {
       <div className={styles.frameImage}>
         <div className={styles.frameImage__large}>
           <Image
+            img={require("./img/typeframe-ps-85-hero.png")}
+            alt="Typeframe PS-85"
+          />
+        </div>
+        <div className={styles.frameImage__simple}>
+          <Image
+            img={require("./img/typeframe-ps-85-hero-simple.png")}
+            alt="Typeframe PS-85"
+          />
+        </div>
+      </div>
+
+      <p className={styles.frameOverline}>
+        The Typeframe PS-85 Portable MU/TH/UR&nbsp;Terminal
+      </p>
+      <Heading as="h1" className={styles.frameTitle}>
+        Mother knows best.
+      </Heading>
+      <div className="row">
+        <div className="col col--4 col--offset-2">
+          <p>
+            <strong>Connect to MU/TH/UR without the umbilical cord.</strong>{" "}
+            <br />
+            When Weyland-Yutani approached us to design the Typeframe PS-85, we
+            said, “How can we refuse?” They replied, “You can't. You've been
+            acquired in a hostile takeover.” So we got to work on a portable,
+            rugged terminal built for long-haul ship captains and officers who
+            can't afford to stay tethered to the bridge.
+          </p>
+
+          <p>
+            The PS-85 is a dedicated MU/TH/UR 6000 terminal with secure,
+            shipwide wireless connectivity. Review priority directives, access
+            system diagnostics, or consult Mother from anywhere on the vessel—no
+            fixed console, no hardline dependency. Advanced
+            Weyland-Yutani-approved telemetry keeps you connected decks away
+            from the core.
+          </p>
+          <p>
+            Like all Typeframe systems, the PS-85 is built to adapt. A flexible
+            expansion bay supports MU/TH/UR wireless modules and future
+            Weyland-Yutani peripherals not yet cleared for documentation.
+          </p>
+        </div>
+        <div className="col col--4">
+          <p>
+            Housed in a rugged enclosure with an integrated carrying handle, the
+            PS-85 is designed to travel wherever duty takes you: the bridge,
+            engineering, or inside a maintenance vent checking life-support
+            systems. A semiotic-standard keyboard provides precise, unambiguous
+            input in low-light, high-stress environments.
+          </p>
+          <p>
+            If you've been looking for portable MU/TH/UR access where authority
+            meets reliability, look to the PS-85.
+          </p>
+          <p>
+            <strong>Typeframe. Built for better worlds.</strong>
+          </p>
+          <ThemedImage
+            alt="Docusaurus themed image"
+            sources={{
+              light: useBaseUrl("/img/logo-wy-light.svg"),
+              dark: useBaseUrl("/img/logo-wy-dark.svg"),
+            }}
+            className={styles.frameLogo__small}
+          />
+        </div>
+      </div>
+      <div className={styles.frameButtons}>
+        <Link className="button button--secondary button--lg" to="/docs/ps-85/">
+          Build Your PS-85
+        </Link>
+      </div>
+      <hr />
+      <div className={styles.frameImage}>
+        <div className={styles.frameImage__large}>
+          <Image
             img={require("./img/typeframe-px-88-hero.png")}
             alt="Typeframe PX-88"
           />

@@ -31,13 +31,20 @@
 .frameTitle {
   letter-spacing: -0.02em;
   text-align: center;
-  font-size: calc(2rem + 6vw);
+  font-size: calc(2rem + 5vw);
   line-height: 1em;
   margin-bottom: 0.25em;
 }
 
 .frameLogo {
   width: 200px;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: none;
+}
+
+.frameLogo__small {
+  width: 140px;
   height: auto;
   margin: 0 auto;
   box-shadow: none;

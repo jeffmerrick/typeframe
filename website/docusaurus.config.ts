@@ -88,8 +88,18 @@ const config: Config = {
         {
           position: "right",
           label: "PX-88",
-          to: "/docs/px-88",
           style: { fontWeight: "bold" },
+          items: [
+            {
+              label: "Build Guide",
+              to: "/docs/px-88",
+              activeBaseRegex: "^/docs/px-88(/(?!gallery).*)?$",
+            },
+            {
+              label: "Gallery",
+              to: "/docs/px-88/gallery",
+            },
+          ],
         },
         {
           position: "right",
