@@ -45,3 +45,17 @@ The "Typeframe" name and logo are trademarks of the project.
 
 - You may not use the "Typeframe" name or logo to identify, brand, or represent your own projects, products, or services, including forks or derivatives of this project, without explicit written permission.
 - Commercial use of the logo and branding is prohibited.
+
+---
+
+## Disclaimers
+
+### Trademark and Affiliation Notice
+
+This project is an independent, non-commercial, open-source project. It is not affiliated with, endorsed by, sponsored by, or otherwise associated with any other companies or trademark holders referenced in this documentation. This project is not affiliated with, authorized by, or endorsed by 20th Century Studios or any rights holders of the Alien franchise.
+
+Any references to trademarked products, services, or companies are made solely for descriptive, informational, and compatibility purposes. All trademarks, registered trademarks, product names, and company names mentioned are the property of their respective owners.
+
+### No Warranty or Liability
+
+THIS SOFTWARE AND DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE, HARDWARE DESIGNS, OR THE USE OR OTHER DEALINGS IN THE MATERIALS PROVIDED.

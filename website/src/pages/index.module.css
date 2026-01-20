@@ -3,8 +3,31 @@
  * and scoped locally.
  */
 
+.frame {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 2rem 0;
+  box-shadow: var(--ifm-global-shadow-md);
+  background-image: repeating-linear-gradient(
+    23deg,
+    var(--ifm-color-emphasis-200) 0px,
+    var(--ifm-color-emphasis-100) 1px,
+    transparent 0px,
+    transparent 2px
+  );
+}
+
+.frameText {
+  padding: 0 1rem;
+}
+
 .frameImage {
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
+}
+
+.frameImage img {
+  border-radius: 0;
 }
 
 .frameImage__simple {
@@ -31,7 +54,7 @@
 .frameTitle {
   letter-spacing: -0.02em;
   text-align: center;
-  font-size: calc(2rem + 6vw);
+  font-size: calc(2rem + 5vw);
   line-height: 1em;
   margin-bottom: 0.25em;
 }
@@ -43,7 +66,18 @@
   box-shadow: none;
 }
 
+.frameLogo__small {
+  width: 140px;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: none;
+}
+
 .frameButtons {
   padding: 2rem 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }

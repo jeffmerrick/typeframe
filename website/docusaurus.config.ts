@@ -86,16 +86,38 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "docsSidebar",
           position: "right",
-          label: "Build Guide",
+          label: "PS-85",
+          style: { fontWeight: "bold" },
+          items: [
+            {
+              label: "Build Guide",
+              to: "/docs/ps-85",
+              activeBaseRegex: "^/docs/ps-85(/(?!gallery).*)?$",
+            },
+            {
+              label: "Gallery",
+              to: "/docs/ps-85/gallery",
+            },
+          ],
         },
         {
-          to: "/gallery",
-          label: "Gallery",
           position: "right",
+          label: "PX-88",
+          style: { fontWeight: "bold" },
+          items: [
+            {
+              label: "Build Guide",
+              to: "/docs/px-88",
+              activeBaseRegex: "^/docs/px-88(/(?!gallery).*)?$",
+            },
+            {
+              label: "Gallery",
+              to: "/docs/px-88/gallery",
+            },
+          ],
         },
+
         {
           href: "https://github.com/jeffmerrick/typeframe",
           label: "GitHub",
@@ -107,14 +129,14 @@ const config: Config = {
       style: "light",
       links: [
         {
-          title: "Docs",
+          title: "Build Guides",
           items: [
             {
-              label: "PX-88 Build Guide",
+              label: "PX-88 ",
               to: "/docs/px-88",
             },
             {
-              label: "PS-85 (Coming Soon)",
+              label: "PS-85 (New)",
               to: "/docs/ps-85",
             },
           ],
@@ -126,7 +148,10 @@ const config: Config = {
               label: "GitHub",
               href: "https://github.com/jeffmerrick/typeframe",
             },
-
+            {
+              label: "Hackaday.io",
+              href: "https://hackaday.io/project/204522-typeframe",
+            },
             {
               label: "Instagram",
               href: "https://www.instagram.com/jeffsbuilds/",

@@ -9,7 +9,7 @@ description: Installing Raspberry Pi OS and configuring the display.
 ### 1.Flash Raspberry Pi OS Trixie
 
 1. Connect the SD card to your computer
-2. Download and use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to flash the latest Raspberry Pi OS (32-bit) - Trixie to the SD card.
+2. Download and use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to flash the latest Raspberry Pi OS (64-bit) - Trixie to the SD card.
 
 :::tip[OS customization]
 

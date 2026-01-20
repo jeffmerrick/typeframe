@@ -31,17 +31,17 @@
   --ifm-color-primary-lighter: #df2f2f;
   --ifm-color-primary-lightest: #e44d4d;
 
-  --ifm-color-gray-0: #fbf3e3;
-  --ifm-color-gray-100: #f0e8d8;
-  --ifm-color-gray-200: #d5cec0;
-  --ifm-color-gray-300: #bab4a8;
-  --ifm-color-gray-400: #9f9a90;
-  --ifm-color-gray-500: #858078;
-  --ifm-color-gray-600: #6a6660;
-  --ifm-color-gray-700: #4f4c48;
-  --ifm-color-gray-800: #343230;
-  --ifm-color-gray-900: #1a1919;
-  --ifm-color-gray-1000: #111010;
+  --ifm-color-gray-0: #f7f7f3;
+  --ifm-color-gray-100: #ececea;
+  --ifm-color-gray-200: #d1d1cf;
+  --ifm-color-gray-300: #b6b6b4;
+  --ifm-color-gray-400: #9b9b99;
+  --ifm-color-gray-500: #81817f;
+  --ifm-color-gray-600: #676765;
+  --ifm-color-gray-700: #4d4d4b;
+  --ifm-color-gray-800: #333331;
+  --ifm-color-gray-900: #1a1a1a;
+  --ifm-color-gray-1000: #111111;
 
   --ifm-color-secondary: var(--ifm-color-emphasis-200);
   --ifm-color-secondary-dark: var(--ifm-color-emphasis-300);
@@ -79,10 +79,7 @@
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-weight: lighter;
   letter-spacing: -0.02em;
   font-family: "Libre Caslon Condensed", serif;
