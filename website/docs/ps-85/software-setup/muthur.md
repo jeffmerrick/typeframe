@@ -6,9 +6,9 @@ description: Light up the LED Matrix
 
 # MU/TH/UR LED Matrix
 
-If you opted to include the [MU/TH/UR](https://en.wikipedia.org/wiki/MU_/_TH_/_UR) LED Matrix in your PS-85 build, you can set it up to display a simple blinking pattern similar to the one seen in the Alien movies.
+If you opted to include the [MU/TH/UR](https://en.wikipedia.org/wiki/MU_/_TH_/_UR) LED Matrix in your PS-85 build, you can set it up to display a simple blinking pattern similar that seen in the Alien movies.
 
-The CharlePlex LED Matrix Bonnet is well documented over on [Adafruit's website](https://learn.adafruit.com/adafruit-charlieplex-bonnet/python-examples) if you want to explore more functionality.
+The CharliePlex LED Matrix Bonnet is well documented over on [Adafruit's website](https://learn.adafruit.com/adafruit-charlieplex-bonnet/python-examples) if you want to explore more functionality.
 
 ### 1. Installation
 
@@ -75,11 +75,13 @@ deactivate
 
 #### With the Bash scripts
 
-To start the lights script:
+To turn on the lights:
 
 ```bash
 ./start.sh
 ```
+
+To turn off the lights:
 
 ```bash
 ./stop.sh

@@ -18,6 +18,10 @@
   );
 }
 
+.frameText {
+  padding: 0 1rem;
+}
+
 .frameImage {
   padding: 0 0 2rem 0;
 }

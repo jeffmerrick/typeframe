@@ -14,7 +14,7 @@ The [BM43 documentation](http://kpchn.com/s/PoHJ?path=%2F003-BM%20Series) is som
 
 1. Download the keyboard layout JSON file. I have a working one in the repo in [ps-85/software/keyboard](https://github.com/jeffmerrick/typeframe/tree/main/ps-85/software/keyboard).
 2. Plug in the keyboard and navigate to [https://launcher.keychron.com/](https://launcher.keychron.com/).
-3. Click Connect
+3. Click "Connect".
 4. Choose the BM43 in the dialog and click "Connect"
 5. When prompted choose the JSON file you downloaded in step 1.
 

@@ -19,7 +19,7 @@ The case is split into parts that can be printed on an FDM printer with at least
 
 ## Source Files
 
-- [**STEP**](https://github.com/jeffmerrick/typeframe/tree/main/ps-85/hardware/source-files/typeframe-ps-85.step) - Step file of the entire assembly.
+- [**STEP**](https://github.com/jeffmerrick/typeframe/tree/main/ps-85/hardware/source-files/typeframe-ps-85.step) - STEP file of the entire assembly.
 - [**F3Z**](https://github.com/jeffmerrick/typeframe/tree/main/ps-85/hardware/source-files/typeframe-ps-85.f3z) - Fusion 360 file. Fair warning that the timeline is a bit of a mess, though I did try to keep components named and somewhat organized.
 
 ## Keyboard Plate

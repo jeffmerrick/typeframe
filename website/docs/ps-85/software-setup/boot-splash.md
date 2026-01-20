@@ -10,7 +10,7 @@ The Raspberry Pi displays a boot splash screen during startup. You can customize
 
 ### 1. Change Boot Splash Image
 
-To change the Raspberry Pi boot splash image to a custom Alien image:
+Change the Raspberry Pi boot splash image to a custom Alien image.
 
 1. Open a terminal and go to the Plymouth theme directory:
    ```bash

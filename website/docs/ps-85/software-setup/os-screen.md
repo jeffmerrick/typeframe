@@ -6,7 +6,7 @@ description: Installing Raspberry Pi OS and configuring the display.
 
 ## Flash OS & Boot
 
-### 1.Flash Raspberry Pi OS Trixie
+### 1. Flash Raspberry Pi OS Trixie
 
 1. Connect the SD card to your computer
 2. Download and use [Raspberry Pi Imager](https://www.raspberrypi.com/software/) to flash the latest Raspberry Pi OS Lite (64-bit) - Trixie to the SD card.
@@ -45,7 +45,7 @@ If you configured WiFi and SSH in the imager, you can SSH into the Pi from your 
 ssh pi@typeframe-ps.local
 ```
 
-This will allow you to copy and paste commands more easily than working directly on the PX-88.
+This will allow you to copy and paste commands more easily than working directly on the PS-85.
 
 ## Screen Rotation Configuration
 

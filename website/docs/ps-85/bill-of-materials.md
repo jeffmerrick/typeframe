@@ -44,10 +44,10 @@ These are the components you'll need to build the PS-85. I've linked to the manu
 
 ## LED Matrix (Optional)
 
-| Component                                                         | Notes                                                                     | Link                                                  |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------- |
-| **2x20 Socket Riser Header for Raspberry Pi HATs and Bonnets**    | You may want this either way to make the GPIO pins more easily accessible | [adafruit.com](https://www.adafruit.com/product/4079) |
-| **Adafruit CharliePlex LED Matrix Bonnet - 8x16 Warm White LEDs** |                                                                           | [adafruit.com](https://www.adafruit.com/product/4122) |
+| Component                                                         | Notes                                                                      | Link                                                  |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **2x20 Socket Riser Header for Raspberry Pi HATs and Bonnets**    | You may want this either way to make the GPIO pins more easily accessible. | [adafruit.com](https://www.adafruit.com/product/4079) |
+| **Adafruit CharliePlex LED Matrix Bonnet - 8x16 Warm White LEDs** |                                                                            | [adafruit.com](https://www.adafruit.com/product/4122) |
 
 ## Screws and More
 

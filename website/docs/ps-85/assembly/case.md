@@ -40,7 +40,7 @@ Secure the Pi Zero to the standoffs on the screen top with four M2.5x8 screws.
 
 ![Connecting Electronics](./img/case-assembly-05.jpg)
 
-Plug in everything except the cables that go to the Pi. More details on this in the [electronics assembly](./electronics.md) guide. Secure the battery with the thermal tape an plug it into the PowerBoost.
+Plug in everything except the cables that go to the Pi. More details on this in the [electronics assembly](./electronics.md) guide. Secure the battery with the thermal tape and plug it into the PowerBoost.
 
 ### 6. Partly Install Screen
 
@@ -50,7 +50,7 @@ Screw in the screen from the bottom of the case _**only on the non-handle side**
 
 ![Connecting Cables to Pi](./img/case-assembly-06.jpg)
 
-Flip the screen top over and place it overlapping the screen so you can plug the cables into the Pi. (Note the different PWR and USB labeled ports on the Pi Zero.) Then gently lift up the handle side of the screen so you can slide the cables under it and the screen top into place.
+Flip the screen top over and place it so it overlaps the screen, then plug the cables into the Pi. (Note the different PWR and USB labeled ports on the Pi Zero.) Then gently lift up the handle side of the screen so you can slide the cables under it and the screen top into place.
 
 ### 8. Finish Installing Screen
 
