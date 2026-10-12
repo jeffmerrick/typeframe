@@ -113,7 +113,7 @@ Solder two female Dupont connectors to the two terminals on the status LED. Sold
 
 ### 2. Connect Jumpers to GPIO Header on Power Management HAT
 
-- Connect the red wire (with resistor) to GPIO 19 (Physical Pin 35)
+- Connect the red wire (with resistor) to GPIO 13 (Physical Pin 33)
 - Connect the black wire to a Ground pin (Physical Pin 39)
 
 Note that the status LED won't work until some configuration is done later in the software setup section.
